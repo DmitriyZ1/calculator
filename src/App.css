@@ -1,38 +1,115 @@
-.App {
+.container{
+  margin: 10px auto;
+  width: 1200px;
+}
+
+.c_body{
+  margin-top: 50px;
+  width: 500px;
+  height: 500px;
+  background: black;
+  border-radius: 5px;
+  padding-top: 5px;
+  box-shadow: rgb(22, 22, 22) 3px 4px 5px;
+}
+
+.bord{
+  background: #0f0f0f;
+  width: 490px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 5px;
+}
+
+.inp{
+  width: 485px;
+  height: 95px;
+  margin: 0 auto;
+  background: black;
+}
+
+.but_block{
+  width: 480px;
+  height: 370px;
+  margin: 10px;
+  display: flex;
+}
+
+.c_block{
+  width: 96px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.num_block{
+  width: 288px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fun_block{
+  width: 96px;
+  height: 370px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.but{
+  width: 76px;
+  height: 70px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.but:active{
+  background: rgb(26, 26, 26);
+}
+
+.butnull{
+  width: 172px;
+  height: 70px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.butnull:active{
+  background: rgb(26, 26, 26);
+}
+
+.butpl{
+  width: 172px;
+  height: 164px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.butpl:active{
+  background: rgb(26, 26, 26);
+}
+
+.num{
+  background: #212121;
+  color: white;
+  font-size: 46px;
+  font-weight: 900;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fun{
+  background: #4b4b4b;
   color: white;
+  font-size: 46px;
+  font-weight: 900;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.out{
+  font-size: 65px;
+  color: #4b4b4b;
+  text-align: right;
+  margin-right: 10px;
+  overflow: hidden;
 }
